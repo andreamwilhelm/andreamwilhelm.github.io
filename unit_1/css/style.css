@@ -1,7 +1,25 @@
 body {
 	background-color:black;
+	font-family: "Open Sans", sans-serif;
+ 	margin: 0;
 }
 
+
+/* Source Sans Pro Normal
+Source Sans Pro Bold
+Oswald Bold
+Merriweather Bold
+Merriweather Bold Italic */ 
+
+/* high level */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgba(200,200,200,.6);
+}
 
 
 /* NAVIGATION BAR */
@@ -48,7 +66,7 @@ ul.navlist li em {
   text-transform: uppercase;
   font-weight: bold;
   font-style: normal;
-  font-family:"Oswald";
+  font-family:"Oswald", sans-serif;
 }
 
 /* PAGE */ 
