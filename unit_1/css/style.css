@@ -2,6 +2,56 @@ body {
 	background-color:black;
 }
 
+
+
+/* NAVIGATION BAR */
+header {
+  border-bottom: thick solid yellow;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.navlogo {
+  float: left;
+  color: yellow;
+  font-size:30px;
+  font-family: "Merriweather", serif;
+  font-weight:bold;
+  margin-left:20px;
+  overflow: hidden;
+
+}
+
+ul.navlist {
+  float:right;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+}
+
+ul.navlist li {
+  display: inline;
+  float: left;
+} 
+
+ul.navlist li a {
+  display: inline;
+  padding:10px;
+}
+
+ul.navlist li a:hover {
+  color: yellow;
+}
+
+ul.navlist li em {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  font-family:"Oswald";
+}
+
+/* PAGE */ 
 h1, h2, p {
 	color: gold;
 }
