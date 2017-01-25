@@ -67,15 +67,40 @@ ul.navlist li em {
 }
 
 /* PAGE */ 
-h1, h2, p {
-	color: white;
-	text-align: center;
+
+h1,h2,p,li {
+  color: white;
 }
 
-div {
+h1,h2 {
+  text-align: center;
+}
+
+#poster {
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size:100%;
     height: 500px;
     top-margin: 500px;
+    text-align: center;
 }
+
+
+.twocolumn {
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+
+li {
+  text-align: center;
+}
+
+.threecolumn {
+  float:left;
+  width: 33%;
+  border: 1px solid white;
+}
+
+
+
