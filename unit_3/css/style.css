@@ -56,7 +56,7 @@ ul.navlist li a {
 }
 
 ul.navlist li a:hover {
-  color: white;
+  color: orange;
 }
 
 ul.navlist li em {
@@ -64,6 +64,10 @@ ul.navlist li em {
   font-weight: bold;
   font-style: normal;
   font-family: sans-serif;
+}
+
+ul.navlist-active {
+  color:#ccc;
 }
 
 /* PAGE */ 
@@ -99,11 +103,20 @@ ul {
   text-align: center;
 }
 
-.threecolumn {
+.biocard {
   float:left;
-  width: 33%;
+  width: 25%;
   border: 1px solid white;
+  padding: 3px;
+  margin: 10px;
   text-align: center;
+}
+
+#contactform {
+  float:right;
+  width: 30%;
+  padding: 50px;
+  border: 1px solid white;
 }
 
 
