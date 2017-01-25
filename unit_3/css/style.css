@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+* {margin:0;padding:0;box-sizing:border-box;}
 body {
-  background-color: black;
+    background-color: black;
+    color:#fff;
 	font-family: "Open Sans", sans-serif;
- 	margin: 0;
 }
 
-
+nav {
+  float:right;
+}
+nav a {
+  display:inline-block;
+  padding:1em;
+  text-decoration:none;
+}
 /* high level */
 a {
-  color: white;
-  text-decoration: none;
+  color: inherit;
 }
 
 .active {
@@ -34,7 +42,8 @@ header {
   font-weight: bold;
   margin-left: 20px;
   overflow: hidden;
-
+  text-decoration: none;
+  padding: .25em;
 }
 
 ul.navlist {
@@ -71,14 +80,6 @@ ul.navlist-active {
 }
 
 /* PAGE */ 
-hr {
-  clear: left;
-}
-
-h1,h2,p,li {
-  color: white;
-}
-
 h1,h2 {
   text-align: center;
 }
@@ -88,15 +89,21 @@ h1,h2 {
     background-repeat: no-repeat;
     background-size:100%;
     height: 500px;
-    top-margin: 500px;
     text-align: center;
+    padding-top: 10em;
+}
+#poster div {
+  background:rgba(128, 0, 128, 0.76);
+  display:inline-block;
+  padding:2em;
 }
 
 
 .twocolumn {
   float: left;
-  text-align: left;
+  /* text-align: left; */
   width: 50%;
+  /* padding: 2em; */
 }
 
 ul {
@@ -106,7 +113,7 @@ ul {
 .biocard {
   float:left;
   width: 25%;
-  border: 1px solid white;
+  border: 1px solid;
   padding: 3px;
   margin: 10px;
   text-align: center;
@@ -116,7 +123,7 @@ ul {
   float:right;
   width: 30%;
   padding: 50px;
-  border: 1px solid white;
+  border: 1px solid;
 }
 
 
