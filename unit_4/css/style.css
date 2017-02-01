@@ -1,0 +1,146 @@
+/* HIGH LEVEL */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  background-color: black;
+  color:#fff;
+	font-family: "Open Sans", sans-serif;
+}
+
+section {
+    clear: both;
+    padding-top: 5em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+/* NAVIGATION BAR */
+header {
+  border-bottom: thick solid purple;
+  background-color: #000000;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.navlogo {
+  float: left;
+  color: gold;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-left: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  padding: .25em;
+}
+
+nav {
+  float: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+nav a {
+  display: inline-block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+nav-active {
+  background-color: rgba(200,200,200,.6);
+}
+
+
+
+/* SPLASH */ 
+#splash {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 9em;
+}
+
+#splash div {
+  background: rgba(128, 0, 128, 0.76);
+  display: inline-block;
+  padding: 2em;
+  margin: auto;
+  width: 50%;
+}
+
+/* SYNOPSIS AND SONG SECTIONS */
+.twocolumn {
+  float: left;
+  width: 50%;
+  padding: 2em;
+}
+
+/* NEWS */
+#news {
+  text-align: center;
+}
+#news div {
+  display: inline-block;
+  padding: 2em;
+  margin: auto;
+  width: 50%;
+}
+#news img {
+  float:left;
+}
+
+
+
+/* THREE COLUMN */
+.biocard {
+  float: left;
+  width: 25%;
+  border: 1px solid;
+  padding: 3px;
+  margin: 10px;
+  text-align: center;
+}
+
+#contactform {
+  float: right;
+  width: 30%;
+  border: 1px solid;
+}
+
+/* footer */
+footer {
+  clear: both;
+}
+
+
